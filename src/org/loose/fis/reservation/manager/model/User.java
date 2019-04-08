@@ -16,6 +16,10 @@ public class User {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
+        // optional field (only if users will require it)
+private String nickName;
+// field that says if the user owns a company that you can get reservations to
+private boolean isOwner;
     }
 
     @Override public String toString() {
